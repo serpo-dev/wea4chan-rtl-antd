@@ -1,5 +1,4 @@
-import { ClockCircleOutlined } from "@ant-design/icons";
-import { Table, Tag, Timeline } from "antd";
+import { Timeline } from "antd";
 import { FC } from "react";
 
 interface ForecastTableProps {

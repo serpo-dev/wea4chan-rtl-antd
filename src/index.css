@@ -3,6 +3,14 @@ body {
     padding: 0;
 }
 
+code {
+    background-color: rgb(66, 66, 66);
+    color: white;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 5px;
+}
+
 .unselectable {
     -moz-user-select: none;
     -khtml-user-select: none;
