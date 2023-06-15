@@ -18,7 +18,7 @@ Just run the `npm install` if you already have `node v18+` installed.
 
 ## Preview
 
-!["Home page"](https://raw.githubusercontent.com/yphwd/brs-urfu-bot/main/attachments/1.jpg)
+!["Home page"](https://raw.githubusercontent.com/yphwd/wea4chan-rtl-antd/main/attachments/1.jpg)
 
 
-!["City page"](https://raw.githubusercontent.com/yphwd/brs-urfu-bot/main/attachments/2.jpg)
+!["City page"](https://raw.githubusercontent.com/yphwd/wea4chan-rtl-antd/main/attachments/2.jpg)
