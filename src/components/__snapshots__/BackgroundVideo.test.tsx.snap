@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render a valid background video snapshot should match to the component render view 1`] = `
+<DocumentFragment>
+  <video
+    autoplay=""
+    class="undraggable unselectable"
+    loop=""
+    style="position: fixed; object-fit: cover; width: 100vw; height: calc(100vh - 160px); pointer-events: none; filter: brightness(49%);"
+  >
+    <source
+      src="720p.mp4"
+      type="video/webm"
+    />
+    Your browser does not dupport HTML5 video
+  </video>
+</DocumentFragment>
+`;

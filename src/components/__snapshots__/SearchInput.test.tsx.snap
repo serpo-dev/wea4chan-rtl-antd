@@ -1,0 +1,96 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render SearchInput properly should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; flex-direction: column;"
+  >
+    <form
+      class="ant-form ant-form-horizontal css-dev-only-do-not-override-12jzuas"
+      style="display: flex; flex-direction: row;"
+    >
+      <div
+        class="ant-form-item css-dev-only-do-not-override-12jzuas"
+      >
+        <div
+          class="ant-row ant-form-item-row css-dev-only-do-not-override-12jzuas"
+        >
+          <div
+            class="ant-col ant-form-item-control css-dev-only-do-not-override-12jzuas"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <div
+                  class="ant-select ant-select-lg ant-select-in-form-item ant-select-auto-complete css-dev-only-do-not-override-12jzuas ant-select-single ant-select-show-search"
+                  style="width: 400px;"
+                >
+                  <div
+                    class="ant-select-selector"
+                  >
+                    <span
+                      class="ant-select-selection-search"
+                    >
+                      <input
+                        aria-activedescendant="value_list_0"
+                        aria-autocomplete="list"
+                        aria-controls="value_list"
+                        aria-expanded="false"
+                        aria-haspopup="listbox"
+                        aria-owns="value_list"
+                        autocomplete="off"
+                        class="ant-select-selection-search-input"
+                        id="value"
+                        role="combobox"
+                        type="search"
+                        value=""
+                      />
+                    </span>
+                    <span
+                      class="ant-select-selection-placeholder"
+                    >
+                      Search for coordinates...
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ant-form-item css-dev-only-do-not-override-12jzuas"
+      >
+        <div
+          class="ant-row ant-form-item-row css-dev-only-do-not-override-12jzuas"
+        >
+          <div
+            class="ant-col ant-form-item-control css-dev-only-do-not-override-12jzuas"
+          >
+            <div
+              class="ant-form-item-control-input"
+            >
+              <div
+                class="ant-form-item-control-input-content"
+              >
+                <button
+                  class="ant-btn css-dev-only-do-not-override-12jzuas ant-btn-primary ant-btn-lg"
+                  title="Search button"
+                  type="submit"
+                >
+                  <span>
+                    Search
+                  </span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+  </div>
+</DocumentFragment>
+`;

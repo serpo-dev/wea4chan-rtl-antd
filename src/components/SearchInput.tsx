@@ -22,7 +22,7 @@ export const SearchInput: FC = () => {
             const opts = res?.map((e) => {
                 return {
                     label: e.name,
-                    value: "(" + e.latitude + "; " + e.longitude + ")",
+                    value: e.latitude + "; " + e.longitude,
                 };
             });
             setOptions(opts);
@@ -33,22 +33,22 @@ export const SearchInput: FC = () => {
         if (value) {
             const trimmedValue = value.trim();
 
-            const regex = /\(-{0,}\d+\.\d+;.{0,}\d+\)/;
+            const regex = /-{0,}\d+\.\d+;.{0,}-{0,}\d+/;
             const match = trimmedValue.match(regex);
 
             if (match?.[0] !== trimmedValue) {
-                setError(
-                    `You need to enter the coordinates in format "(x; y)"`
-                );
+                setError(`You need to enter the coordinates in format "x; y"`);
                 return;
             }
 
-            const coordinates = trimmedValue.slice(1, -1).split(";");
+            const coordinates = trimmedValue.split(";");
             const city = options?.filter((e) => e.value === trimmedValue)[0][
                 "label"
             ];
             navigate(
-                `/q?latitude=${coordinates[0]}&longitude=${coordinates[1]}&city=${city}`
+                `/q?latitude=${coordinates[0].trim()}&longitude=${coordinates[1].trim()}${
+                    city ? "&city=" + city?.trim() : ""
+                }`
             );
             return;
         }
@@ -78,12 +78,13 @@ export const SearchInput: FC = () => {
                             width: 400,
                         }}
                         onSearch={handleSearch}
-                        placeholder=" Search for coordinates"
+                        placeholder="Search for coordinates..."
                         options={options}
                     />
                 </Form.Item>
                 <Form.Item>
                     <Button
+                        title="Search button"
                         size="large"
                         type="primary"
                         htmlType="submit"
