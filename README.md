@@ -11,7 +11,7 @@ Just run the `npm install` if you already have `node v18+` installed.
 
 ## Usage
 
-- `npm run test` for test the application (*this is what everything was sterted*)
+- `npm run test` for test the application (*this is the main reason why the app was created*)
 - `npm run start` for development mode
 - `npm run build` for production mode
 

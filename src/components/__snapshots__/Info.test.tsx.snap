@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render Info properly should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="font-size: 16px; text-align: center; font-weight: 500; padding: 15px;"
+  >
+    <a
+      data-testid="about_link"
+      href="/about"
+    >
+      About
+    </a>
+    <span>
+       | 
+    </span>
+    <a
+      href="https://github.com/yphwd"
+      rel="noreferrer"
+      target="_blank"
+    >
+      lav2u
+    </a>
+    <div>
+      © 2023
+    </div>
+  </div>
+</DocumentFragment>
+`;

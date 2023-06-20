@@ -7,6 +7,7 @@ exports[`should render a valid emblem component should match a snapshot 1`] = `
     style="height: 100%; display: flex; align-items: center; justify-content: center;"
   >
     <a
+      data-testid="redirect_icon"
       href="/"
       style="height: 100%; display: flex; align-items: center; justify-content: center; margin-left: 20px; margin-right: 20px;"
     >
@@ -18,6 +19,7 @@ exports[`should render a valid emblem component should match a snapshot 1`] = `
       />
     </a>
     <a
+      data-testid="redirect_title"
       href="/"
     >
       <h2

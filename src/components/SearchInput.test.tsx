@@ -27,13 +27,13 @@ describe("should render SearchInput properly", () => {
         expect(asFragment()).toMatchSnapshot();
     });
 
-    it("should be redirect button", async () => {
+    it("should contain a  redirect button", async () => {
         render(<SearchInput />, { wrapper: BrowserRouter });
         const searchButton = screen.getByTitle("Search button");
         expect(searchButton).toBeInTheDocument();
     });
 
-    it("should be input field", async () => {
+    it("should contain an input field", async () => {
         render(<SearchInput />, { wrapper: BrowserRouter });
         let input = screen.getByRole<HTMLInputElement>("combobox");
         expect(input).toBeInTheDocument();
@@ -41,11 +41,10 @@ describe("should render SearchInput properly", () => {
 
     it("should find the coordinates by typing a name of the city", async () => {
         render(<SearchInput />, { wrapper: BrowserRouter });
-        let input = screen.getByRole<HTMLInputElement>("combobox");
+        const input = screen.getByRole<HTMLInputElement>("combobox");
         userEvent.type(input, "yekaterinb");
-        const option = await screen.findByText("Yekaterinburg");
-        userEvent.click(option);
-        await waitFor(() => expect(input.value).toEqual("56.8519; 60.6122"));
+        userEvent.click(await screen.findByText("Yekaterinburg"));
+        await waitFor(() => expect(input).toHaveValue("56.8519; 60.6122"));
     });
 
     it("should redirect to the city page when the user presses 'enter'", async () => {

@@ -2,7 +2,7 @@ import { useState, useLayoutEffect, FC } from "react";
 import { useSearchParams } from "react-router-dom";
 import { CityData } from "../interfaces/Forecast";
 import { getForecast } from "../async/getForecast";
-import { ServerError } from "../components/ServerError";
+import { ServerError } from "./ServerError";
 import { NotFound } from "./NotFound";
 import { Breadcrumb, Spin, Typography } from "antd";
 import { HomeOutlined } from "@ant-design/icons";

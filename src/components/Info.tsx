@@ -11,7 +11,12 @@ export const Info: FC = () => {
                 padding: "15px",
             }}
         >
-            <Link to="/about">About </Link>
+            <Link
+                to="/about"
+                data-testid="about_link"
+            >
+                About
+            </Link>
             <span> | </span>
             <a
                 href="https://github.com/yphwd"

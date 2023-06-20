@@ -27,6 +27,7 @@ export function Emblem(): ReturnType<FC> {
             <Link
                 style={imgStyle}
                 to="/"
+                data-testid="redirect_icon"
             >
                 <img
                     style={{ height: "80%" }}
@@ -35,7 +36,10 @@ export function Emblem(): ReturnType<FC> {
                     alt="logo_chan_png"
                 />
             </Link>
-            <Link to="/">
+            <Link
+                to="/"
+                data-testid="redirect_title"
+            >
                 <Title
                     level={2}
                     style={{

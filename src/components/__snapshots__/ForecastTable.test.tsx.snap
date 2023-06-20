@@ -1,0 +1,332 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render ForecastTable properly should match the snapshot 1`] = `
+<DocumentFragment>
+  <div
+    style="display: flex; flex-direction: row; margin-top: 60px; width: 500px;"
+  >
+    <ul
+      class="ant-timeline ant-timeline-label css-dev-only-do-not-override-12jzuas"
+      style="flex: 1;"
+    >
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          00:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          01:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19.3 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          02:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19.6 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          03:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19.9 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          04:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            20 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          05:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19.9 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          06:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19.7 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          07:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19.3 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          08:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19.2 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          09:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            19.2 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          10:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            18.7 °C
+          </div>
+        </div>
+      </li>
+      <li
+        class="ant-timeline-item ant-timeline-item-last ant-timeline-item-right"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          11:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-gray"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            18.5 °C
+          </div>
+        </div>
+      </li>
+    </ul>
+    <ul
+      class="ant-timeline ant-timeline-label css-dev-only-do-not-override-12jzuas"
+      style="flex: 1;"
+    >
+      <li
+        class="ant-timeline-item ant-timeline-item-last ant-timeline-item-left"
+      >
+        <div
+          class="ant-timeline-item-label"
+        >
+          12:00
+        </div>
+        <div
+          class="ant-timeline-item-tail"
+        />
+        <div
+          class="ant-timeline-item-head ant-timeline-item-head-green"
+        />
+        <div
+          class="ant-timeline-item-content"
+        >
+          <div
+            style="font-weight: 500;"
+          >
+            18.3 °C
+          </div>
+        </div>
+      </li>
+    </ul>
+  </div>
+</DocumentFragment>
+`;
