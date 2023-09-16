@@ -1,8 +1,8 @@
-# wea4chan
+# wea4chan 🌦️
 
-Weather forecast for nyans... Yes, we nyan! That's a joke. This is my training project where I tested `react-testing-library`. This app uses the external API of `open-meteo.com`.
+Kawaii Weather Forecast for NYANS... Yes, we nyan! That's a joke. 'Why not combine cuteness, weather forecast and `react-testing-library`?' - I thought and made this application.  This app uses the external API of `open-meteo.com`.
 
-### Live Demo
+### Live Demo 🔴
 
 - You can check it out by following <b><a href="https://serpo-dev.github.io/wea4chan" target="_blank">this link</a></b> 🔗 :
 
@@ -16,7 +16,7 @@ Weather forecast for nyans... Yes, we nyan! That's a joke. This is my training p
     <img src="attachments/2.jpg" alt="City page" height="120" style="margin: 5px;">
 </div>
 
-## Usage 
+## Usage 😻
 
 Just run the `npm install` if you already have `node v18+` and `npm` installed.
 
