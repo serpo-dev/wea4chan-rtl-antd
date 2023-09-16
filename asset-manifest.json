@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/wea4chan/static/css/main.340031f2.css",
-    "main.js": "/wea4chan/static/js/main.a1c83db7.js",
+    "main.js": "/wea4chan/static/js/main.cd2d465e.js",
     "static/media/720p.mp4": "/wea4chan/static/media/720p.94c9977af448e82104c0.mp4",
     "static/media/logo.png": "/wea4chan/static/media/logo.e8555c903428a5001d78.png",
     "index.html": "/wea4chan/index.html",
     "main.340031f2.css.map": "/wea4chan/static/css/main.340031f2.css.map",
-    "main.a1c83db7.js.map": "/wea4chan/static/js/main.a1c83db7.js.map"
+    "main.cd2d465e.js.map": "/wea4chan/static/js/main.cd2d465e.js.map"
   },
   "entrypoints": [
     "static/css/main.340031f2.css",
-    "static/js/main.a1c83db7.js"
+    "static/js/main.cd2d465e.js"
   ]
 }
