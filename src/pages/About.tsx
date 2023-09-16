@@ -33,7 +33,7 @@ export const About: FC = () => {
                     </code>
                     . If you want to review my project and give a feedback,
                     please write on my email <b>sergey.potapov.2002@mail.ru</b>{" "}
-                    or telegram <b>yphwd</b>.
+                    or telegram <b>serpo_dev</b>.
                 </p>
                 <p>Thanks for visiting!</p>
                 <Title

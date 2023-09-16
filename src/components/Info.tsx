@@ -19,11 +19,11 @@ export const Info: FC = () => {
             </Link>
             <span> | </span>
             <a
-                href="https://github.com/yphwd"
+                href="https://github.com/serpo-dev"
                 target="_blank"
                 rel="noreferrer"
             >
-                lav2u
+                serpo-dev
             </a>
             <div>© 2023</div>
         </div>

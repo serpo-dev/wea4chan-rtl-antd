@@ -15,11 +15,11 @@ exports[`should render Info properly should match the snapshot 1`] = `
        | 
     </span>
     <a
-      href="https://github.com/yphwd"
+      href="https://github.com/serpo-dev"
       rel="noreferrer"
       target="_blank"
     >
-      lav2u
+      serpo-dev
     </a>
     <div>
       © 2023
